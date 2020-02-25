@@ -22,9 +22,18 @@
     font-size: xx-large;
   }
 }
-/* fine Query smartphone */
-/* inizio QUERY per HD Desktop */
-@media screen and (min-width: 1200px) {
+/* fine Query smartphone --------*/
+
+/* inizio QUERY HD Desktop   --------- */
+@media screen and (max-width:1200px){
+  body {
+    font-size: x-large;
+  }
+}
+/* fine QUERY HD Desktop --------------*/
+
+/* inizio QUERY per Standard 1920 --*/
+@media screen and (min-width: 1201px) {
 
    #lezioni .row {
      width:100%;
@@ -53,4 +62,4 @@
      height: 280px;
    }
 }
-/*  fine QUERY per HD Desktop */
+/*  fine QUERY per Standard 1920--- */
