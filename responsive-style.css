@@ -2,16 +2,6 @@
 /* inizio Query smartphone */
 @media screen and (max-width: 419px) {
 
-  /* .left {
-    width: 100%;
-  }
-  .right {
-    width: 100%;
-  }
-  .central {
-    width: 100%;
-  } */
-
   #lezioni .row > .left, #lezioni .row > .right{
     width: 100%;
     float: left;
@@ -31,7 +21,36 @@
     margin-top: 80px;
     font-size: xx-large;
   }
-
-
-
 }
+/* fine Query smartphone */
+/* inizio QUERY per HD Desktop */
+@media screen and (min-width: 1200px) {
+
+   #lezioni .row {
+     width:100%;
+     font-size: xx-large;
+   }
+   #steps .row {
+     width: 100%;
+     font-size: xx-large;
+   }
+
+   #why .row {
+     width: 100%;
+     font-size: xx-large;
+   }
+   #why .row > .first,
+   #why .row > .second,
+   #why .row > .third {
+     width: 33.3%;
+     margin-top: 80px;
+     float: left;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   img{
+     height: 280px;
+   }
+}
+/*  fine QUERY per HD Desktop */
